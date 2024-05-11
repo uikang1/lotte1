@@ -1,0 +1,21 @@
+#wrap {
+    width: 100%;
+    min-width: 1600px;
+}
+
+#header,
+#visual,
+#container,
+#content,
+#footer {
+    width: 100%;
+}
+
+.inner {
+    width: 1170px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* 서브페이지 공통 */

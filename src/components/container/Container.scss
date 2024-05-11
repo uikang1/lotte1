@@ -1,0 +1,263 @@
+.main {
+    .con-box {
+        width: 100%;
+
+        .inner {
+            padding: 110px 0;
+        }
+
+        h2 {
+            font-size: 40px;
+            line-height: 1;
+            text-align: center;
+            font-weight: 300;
+
+            + p {
+                font-size: 18px;
+                margin-bottom: 55px;
+                text-align: center;
+            }
+        }
+    }
+
+    .con1 {
+        background: #efefef;
+
+        .inner {
+            padding: 0;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a {
+            display: flex;
+
+            dl {
+                display: flex;
+            }
+        }
+    }
+
+    .con2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+        background-image: url(https://adventure.lotteworld.com/common_mus/images/icon/mainCon1Bg_t2_img.jpg);
+
+        h2 {
+            color: #fff;
+
+            + p {
+                color: #fff;
+            }
+        }
+
+        ul {
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                width: 570px;
+                outline: 3px solid transparent;
+                outline-offset: -3px;
+                transition: outline-color 0.4s ease-in-out;
+
+                &:hover {
+                    outline-color: #fff;
+                }
+
+                a {
+                    img {
+                        width: 100%;
+                    }
+
+                    strong {
+                        color: #fff;
+                        display: block;
+                        text-align: center;
+                        padding: 25px 0;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+    .con3 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+        background-image: url(https://adventure.lotteworld.com/common_mus/images/icon/mainCon2_bg.jpg);
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                &:hover,
+                a {
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                a strong {
+                    background: #fff;
+                    display: block;
+                    text-align: center;
+                    padding: 25px 0;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .con4 {
+        .new-wrap {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 575px;
+            box-sizing: border-box;
+        }
+
+        .left {
+            border: 1px solid #dcdcdc;
+            padding: 35px 40px;
+            position: relative;
+
+            h3 {
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 25px;
+            }
+
+            > a {
+                strong {
+                    display: block;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    margin-bottom: 65px;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+
+                span {
+                    display: block;
+                    padding-bottom: 25px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px solid #dcdcdc;
+                }
+            }
+
+            ul li {
+                margin-bottom: 10px;
+
+                a {
+                    display: inline-block;
+                    width: 400%;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+
+                span {
+                    float: right;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .more {
+                position: absolute;
+                right: 40px;
+                top: 40px;
+
+                a::after {
+                    content: '+';
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background: green;
+                    text-align: center;
+                    line-height: 20px;
+                    color: #fff;
+                    margin-left: 15px;
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    a {
+                        display: block;
+                        width: 275px;
+                        height: 190px;
+                        border: 1px solid #000;
+                        box-sizing: border-box;
+                        text-align: center;
+                        padding-top: 130px;
+                        background-position-x: 50%;
+                        background-repeat: no-repeat;
+                    }
+
+                    &:first-child a {
+                        background-image: url(https://adventure.lotteworld.com/common_mus/images/icon/mainCon3_util1_img1.png);
+                        background-position-y: 45px;
+                    }
+
+                    &:last-child a {
+                        background-image: url(https://adventure.lotteworld.com/common_mus/images/icon/mainCon3_util1_img2.png);
+                        background-position-y: 45px;
+                    }
+                }
+            }
+
+            div {
+                width: 100%;
+                height: 190px;
+                background-position: 0 0;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url(https://adventure.lotteworld.com/common_mus/images/icon/mainCon3_banner.jpg);
+                box-sizing: border-box;
+                padding: 40px;
+
+                p:first-child {
+                    font-size: 30px;
+                    line-height: 1.2;
+                    color: #fff;
+                    margin-bottom: 18px;
+                }
+
+                .more a {
+                    color: #fff;
+
+                    i {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

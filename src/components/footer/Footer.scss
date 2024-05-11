@@ -1,0 +1,97 @@
+#footer {
+    border-top: 2px solid #dcdcdc;
+
+    .inner {
+        height: 330px;
+        padding: 55px 0;
+
+        &::after {
+            content: '';
+            display: block;
+            background: #dcdcdc;
+            position: absolute;
+            left: 0;
+            top: 110px;
+            width: 100%;
+            height: 1px;
+        }
+    }
+
+    p {
+        &:nth-of-type(1) {
+            margin-bottom: 60px;
+
+            a {
+                margin-right: 15px;
+
+                &:nth-child(4) {
+                    color: red;
+                }
+            }
+        }
+
+        span {
+            &::after {
+                content: '';
+                display: inline-block;
+                width: 1px;
+                height: 15px;
+                background: #dcdcdc;
+                margin: 10px;
+                vertical-align: middle;
+            }
+
+            &:last-child::after {
+                content: none;
+            }
+        }
+
+        &:last-of-type {
+            margin-top: 30px;
+        }
+    }
+
+    .family {
+        position: absolute;
+        right: 0;
+        top: 140px;
+
+        .title {
+            margin-top: 0;
+            margin-bottom: 0;
+
+            a {
+                display: block;
+                width: 210px;
+                height: 45px;
+                border: 1px solid #000;
+                line-height: 45px;
+                box-sizing: border-box;
+                padding: 0 10px;
+
+                &::after {
+                }
+            }
+        }
+
+        ul {
+            position: absolute;
+            left: 0;
+            top: 55px;
+            display: none;
+
+            li a {
+                display: block;
+                width: 210px;
+                height: 45px;
+                border: 1px solid #000;
+                line-height: 45px;
+                box-sizing: border-box;
+                padding: 0 10px;
+                margin-top: -1px;
+                background: #fff;
+                display: none;
+            }
+        }
+    }
+}
